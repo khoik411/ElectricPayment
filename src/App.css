@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  background-color: #8d6eeb;
+
+  height: 1000px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+nav {
+  /* padding: 30px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(69, 29, 189);
+  color: white;
+  text-decoration: none;
+  box-shadow: 5px 10px 20px 2px rgba(0, 0, 0, 0.356);
+
+}
+nav > ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+nav > ul > li > h4 {
+  text-decoration: none;
+  
+}
+.list-family {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 5px 10px 20px 2px rgba(0, 0, 0, 0.456);
+  background-color: rgb(238, 236, 243);
+  width: 400px;
+}
+a{
+  text-decoration: none;
+}
+.familydetail {
+  display: flex;
+  padding-top: 10px;
+  height: max-content;
+  justify-content: center;
+  margin-bottom: 20px;
+  height: 500px;
+  
+}
+.list-family > img {
+  width: 200px;
+  height: 200px;
+  /* box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.456); */
+
+}
+.listitem {
+  /* display: flex;
+  justify-content: space-around;
+  align-self: start;
+  background-color: aliceblue;
+  padding: 20px; */
+  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(113, 184, 243);
+  padding: 20px; 
+  justify-content: space-around;
+  align-items: center;
+}
+.families {
+  align-self: center;
+  justify-self: auto;
+  border: 3px solid rgba(255, 255, 255, 0.8); 
+  width: 240px;
+  height: 200px;
+  background-color: #ebc0c0;
+  color: white;
+  margin: 20px;
+  box-shadow: 5px 10px 20px 2px rgba(0, 0, 0, 0.356);
+} 
+.families:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
